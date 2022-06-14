@@ -12,7 +12,7 @@ void ArrayIndex3D(int[,,] array)
         {
             for (int z = 0; z < array.GetLength(2); z++)
             {
-                Console.WriteLine($"{array[x, y, z]} - элемент с индексами X={x},Y={y},Z={z}");
+                Console.WriteLine($"{array[x, y, z]} - элемент с индексами X={x},Y={y},Z={z}");//построчный вывод массива с индексами
             }
         }
     }
